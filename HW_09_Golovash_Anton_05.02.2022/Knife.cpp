@@ -3,10 +3,12 @@
 
 Knife::Knife()
 {
+	cout << "Constructor Knife:\t" << this << endl;
 }
 
 Knife::~Knife()
 {
+	cout << "Destructor Knife:\t" << this << endl;
 }
 
 void Knife::Shoot()
@@ -14,10 +16,7 @@ void Knife::Shoot()
 	cout << "STAB" << endl;
 }
 
-void Knife::Reloading()
-{
-}
-
 void Knife::ShowWeapon()
 {
+	cout << "Here is my Knife" << endl;
 }

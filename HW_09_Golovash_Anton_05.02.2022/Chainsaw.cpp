@@ -13,15 +13,21 @@ Chainsaw::~Chainsaw()
 
 void Chainsaw::Shoot()
 {
-	while (tankCapacity)
+	if (fuel)
 	{
+		fuel -= 10;
 		cout << "Chainsaw is running" << endl;
+	}
+	else
+	{
+		cout << "Fuel in chainsaw tank is - " << getFuel() << endl;
+		cout << "Add fuel in chainsaw tank" << endl;
 	}
 }
 
 void Chainsaw::Reloading()
 {
-	tankCapacity = 100;
+	fuel = 100;
 	cout << "Chainsaw tank is fool" << endl;
 }
 
@@ -30,7 +36,7 @@ void Chainsaw::ShowWeapon()
 	cout << "Chainsaw in using" << endl;
 }
 
-int Chainsaw::getTankCapacity()
+int Chainsaw::getFuel()
 {
-	return tankCapacity;
+	return fuel;
 }

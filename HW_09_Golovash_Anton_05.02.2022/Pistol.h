@@ -10,6 +10,5 @@ public:
 	virtual void Shoot() override;
 	virtual void Reloading() override;
 	virtual void ShowWeapon() override;
-
 };
 
