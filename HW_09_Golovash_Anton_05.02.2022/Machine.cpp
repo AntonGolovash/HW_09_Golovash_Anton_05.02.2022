@@ -4,6 +4,7 @@
 Machine::Machine()
 {
 	setDamagePower(25);
+	setBarrelLength(8);
 	cout << "Constructor Machine:\t" << this << endl;
 }
 
@@ -17,6 +18,7 @@ void Machine::Shoot()
 	if (ammo)
 	{
 		cout << "5 shots from Machine" << endl;
+		cout << "Ammo in your Machine is - " << getAmmo() << endl;
 		ammo -= 5;
 	}
 	else

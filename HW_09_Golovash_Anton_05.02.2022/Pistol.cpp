@@ -4,6 +4,7 @@
 Pistol::Pistol()
 {
 	setDamagePower(5);
+	setBarrelLength(4);
 	cout << "Constructor Pistol:\t" << this << endl;
 }
 
@@ -17,18 +18,19 @@ void Pistol::Shoot()
 	if (ammo)
 	{
 		cout << "1 shot from Pistol" << endl;
+		cout << "Ammo in your Pistol is - " << getAmmo() << endl;
 		ammo--;
 	}
 	else
 	{
-		cout << "Ammo in your Gun is - " << getAmmo() << endl;
+		cout << "Ammo in your Pistol is - " << getAmmo() << endl;
 		cout << "Reload your Pistol" << endl;
 	}
 }
 
 void Pistol::Reloading()
 {
-	setAmmo(7);
+	setAmmo(5);
 }
 
 void Pistol::ShowWeapon()

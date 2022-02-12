@@ -17,6 +17,10 @@ void Knife::Shoot()
 	cout << "STAB" << endl;
 }
 
+void Knife::Reloading()
+{
+}
+
 void Knife::ShowWeapon()
 {
 	cout << "Here is my Knife" << endl;

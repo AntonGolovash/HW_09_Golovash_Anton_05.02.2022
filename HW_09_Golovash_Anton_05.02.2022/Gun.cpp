@@ -4,6 +4,7 @@
 Gun::Gun()
 {
 	setDamagePower(5);
+	setBarrelLength(6);
 	cout << "Constructor Gun:\t" << this << endl;
 }
 
