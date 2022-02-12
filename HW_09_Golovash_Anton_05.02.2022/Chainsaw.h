@@ -10,5 +10,7 @@ public:
 	virtual void Shoot() override;
 	virtual void Reloading() override;
 	virtual void ShowWeapon() override;
-
+	int getTankCapacity();
+private:
+	int tankCapacity = 0;
 };
