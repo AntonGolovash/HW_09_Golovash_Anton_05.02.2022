@@ -3,6 +3,7 @@
 
 Machine::Machine()
 {
+	setDamagePower(25);
 	cout << "Constructor Machine:\t" << this << endl;
 }
 
@@ -27,7 +28,7 @@ void Machine::Shoot()
 
 void Machine::Reloading()
 {
-	ammo = 50;
+	setAmmo(50);
 }
 
 void Machine::ShowWeapon()

@@ -3,6 +3,7 @@
 
 Knife::Knife()
 {
+	setDamagePower(10);
 	cout << "Constructor Knife:\t" << this << endl;
 }
 

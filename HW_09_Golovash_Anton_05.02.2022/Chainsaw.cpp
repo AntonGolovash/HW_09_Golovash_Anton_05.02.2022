@@ -3,6 +3,7 @@
 
 Chainsaw::Chainsaw()
 {
+	setDamagePower(20);
 	cout << "Constructor Chainsaw:\t" << this << endl;
 }
 

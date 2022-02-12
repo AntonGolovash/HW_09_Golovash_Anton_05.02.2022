@@ -3,6 +3,7 @@
 
 Gun::Gun()
 {
+	setDamagePower(5);
 	cout << "Constructor Gun:\t" << this << endl;
 }
 
@@ -27,7 +28,7 @@ void Gun::Shoot()
 
 void Gun::Reloading()
 {
-	ammo = 15;
+	setAmmo(15);
 }
 
 void Gun::ShowWeapon()
