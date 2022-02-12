@@ -19,17 +19,19 @@ void Gun::Shoot()
 	{
 		cout << "One shot from Gun" << endl;
 		ammo--;
+		cout << "Ammo in your Gun is - " << getAmmo() << endl;
 	}
 	else
 	{
-		cout << "Ammo in your Pistol is - " << getAmmo() << endl;
+		cout << "Ammo in your Gun is - " << getAmmo() << endl;
 		cout << "Reload your Gun" << endl;
 	}
 }
 
 void Gun::Reloading()
 {
-	setAmmo(15);
+	setAmmo(9);
+	cout << "Ammo in your Gun is - " << getAmmo() << endl;
 }
 
 void Gun::ShowWeapon()

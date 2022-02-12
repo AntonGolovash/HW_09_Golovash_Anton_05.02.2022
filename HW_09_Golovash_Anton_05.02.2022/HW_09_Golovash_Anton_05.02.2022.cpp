@@ -59,5 +59,27 @@ void main()
 	knife.getDamagePower();
 	cout << "Knife damage power - " << knife.getDamagePower() << endl;
 
+	cout << "Gun ammo - " << gun.getAmmo() << endl;
+	cout << "Gun barrel length - " << gun.getBarrelLength() << endl;
+	cout << "Gun damage power - " << gun.getDamagePower() << endl;
+	gun.Reloading();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Shoot();
+	gun.Reloading();
+	gun.Shoot();
+
 	system("pause");
 }

@@ -18,8 +18,8 @@ void Pistol::Shoot()
 	if (ammo)
 	{
 		cout << "1 shot from Pistol" << endl;
-		cout << "Ammo in your Pistol is - " << getAmmo() << endl;
 		ammo--;
+		cout << "Ammo in your Pistol is - " << getAmmo() << endl;
 	}
 	else
 	{
